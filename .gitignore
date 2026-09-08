@@ -1,0 +1,21 @@
+# Build output
+#
+# One output root, out/<Platform>/<Configuration>/, pinned in the .vcxproj.
+# The bare x64/, Debug/ and Release/ below are the OLD locations, kept ignored
+# so a tree built before the move does not show its leftovers as untracked.
+out/
+x64
+Debug
+Release
+
+# IDE / tooling caches
+#
+# The whole of .vs\, rather than the file names it happened to contain. The
+# old list named one FileContentIndex .vsidx by its guid, and Visual Studio
+# writes a new guid whenever it reindexes -- so the next one showed up
+# untracked, along with the v17\ipch\ precompiled headers the list never
+# mentioned at all.
+.vs/
+.understand-anything/
+*.vcxproj.user
+*.aps

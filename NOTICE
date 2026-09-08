@@ -1,0 +1,97 @@
+MsgcoreMFC
+Copyright 2001-2026 Ivyware Pty Ltd, Khrustal & Mann
+             MELBOURNE, VICTORIA, AUSTRALIA, 3000
+
+This product includes software developed by Ivyware Pty Ltd and by
+Khrustal & Mann.
+
+Licensed under the Apache License, Version 2.0. See the LICENSE file in
+this directory, or http://www.apache.org/licenses/LICENSE-2.0
+
+
+-------------------------------------------------------------------------
+Files NOT covered by the Apache License, Version 2.0
+-------------------------------------------------------------------------
+
+The following files are Microsoft Corporation project-template, wizard-
+generated, or sample-derived files. They remain subject to Microsoft's own
+terms and carry their own notices, which must not be removed:
+
+    Targetver.h                        Visual Studio project template.
+    resource.h                         Visual C++ generated include file.
+    MsgcoreMFC.rc                      Visual C++ generated resource script.
+                                       See the note below - part of this file
+                                       is not Microsoft's.
+    res/MsgcoreMFC.rc2                 Visual C++ generated resource script,
+                                       for resources the editor does not
+                                       maintain.
+    stdafx.h                           Visual Studio project template.
+    stdafx.cpp                         Visual Studio project template.
+    MsgcoreMFC(2022).sln               Visual Studio solution file.
+    MsgcoreMFC(2022).vcxproj           Visual Studio project files.
+    MsgcoreMFC(2022).vcxproj.filters
+
+MsgcoreMFC.rc is a mixed file. Its wizard-generated skeleton is Microsoft's, as
+above; the VERSIONINFO block, and the values it reads from MsgcoreMFC_version.h,
+are the work of Khrustal & Mann and ARE covered by the Apache License, Version
+2.0. MsgcoreMFC_version.h itself carries the Apache header in full.
+
+dllmain.cpp began as the AppWizard DLL entry point, but the DLL_PROCESS_ATTACH
+handling, the MFC extension-DLL initialisation and the P2PresourceState
+mechanism it hosts are the work of Ivyware Pty Ltd and of Khrustal & Mann. It
+carries the Apache header in full and is covered by the Apache License,
+Version 2.0.
+
+Files that earlier revisions listed here are no longer tracked at all, and so
+need no exception:
+
+  - MsgcoreMFC.aps, and MsgcoreMFC(2022).vcxproj.user, were tracked only
+    because they predated the .gitignore rules that name them. The first is the
+    resource editor's binary cache, regenerated from the .rc; the second is
+    per-user IDE settings. Both remain on disk and neither is source.
+  - (Blocked)P2Peermfc.h, P2PmsgMFC.cpp, P2PmsgMFC.def and P2Peermfc.def were
+    AppWizard output for two DLLs this repository does not build, and
+    P2Peermfc.vcproj was a Visual Studio 2005 project for one of them. Nothing
+    referenced any of them; <ModuleDefinitionFile> is empty in all four
+    configurations, so neither .def was ever read.
+  - The earlier-revision source files carrying a bracketed suffix - (SMA),
+    (NLR), (2) - were alternative or superseded copies. None was in the build
+    and none was included by anything that was.
+
+
+-------------------------------------------------------------------------
+Third-party components required at build or run time
+-------------------------------------------------------------------------
+
+This software is built against, and links to, components that are licensed
+separately and are NOT distributed under the Apache License, Version 2.0:
+
+    Microsoft Foundation Classes (MFC)  - Microsoft, licensed separately.
+                                          Built as an MFC extension DLL
+                                          against the shared MFC runtime.
+    Microsoft Visual C++ runtime        - Microsoft, licensed separately.
+                                          (mfc140u, msvcp140, vcruntime140,
+                                          ucrtbase)
+    Windows SDK                         - Microsoft, part of the operating
+                                          system. (Secur32, ShCore, Propsys)
+
+These are dependencies, not bundled code. No source from any of them is
+included in this repository.
+
+
+-------------------------------------------------------------------------
+Sibling component required at build and run time
+-------------------------------------------------------------------------
+
+    Msgcore                             - Ivyware Pty Ltd, Khrustal & Mann.
+                                          Apache License, Version 2.0.
+
+Msgcore is a separate repository within the MSCS family, under the same
+licence and the same copyright holders. It is a dependency of this library,
+not bundled code: no Msgcore source is included here.
+
+tests/TestFramework.h and tests/TestFramework.cpp were carried here from
+Msgcore's tests/ directory and adapted. They are the same authors' work under
+the same licence, so they need no exception; the provenance is recorded at the
+top of the header because the assertion macros are deliberately identical to
+Msgcore's and must stay that way.

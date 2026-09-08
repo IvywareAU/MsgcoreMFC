@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ddd940ee-e39a-49ea-98e1-937cba9acae6}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{71dcbf88-ea8b-4867-8948-7462f656f021}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{39371d1e-be76-4b89-a5dc-126ea09c4697}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Extensions">
+      <UniqueIdentifier>{f080b380-dbd6-42a8-aae2-0074c0d89d2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CComboBox_Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CListCtrl_Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CTime_Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CTreeCtrl_Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgToolBar.cpp">
+      <Filter>Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="CWnd_Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndApp_Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Clipboard_Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFont_Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenu_Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PenDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COleTime_Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CString_Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDC_Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CBitmap_Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPen_Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PencrxDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CRect_Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CEdit_Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CView_Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialog_Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CStringParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CBrush_Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MsgcoreMFC.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CComboBox_Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CListCtrl_Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTime_Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTreeCtrl_Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgToolBar.h">
+      <Filter>Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="CWnd_Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CString_Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndApp_Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Clipboard_Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFont_Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenu_Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDC_Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PenDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COleTime_Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBrush_Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgcoreMFC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgcoreMFC_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBitmap_Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPen_Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PencrxDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRect_Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CEdit_Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CView_Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialog_Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CStringParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\P2Properties.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\P2Properties_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\P2Properties_wnd.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\P2Properties_wnd_hc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MsgcoreMFC.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
