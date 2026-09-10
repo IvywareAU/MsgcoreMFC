@@ -172,7 +172,7 @@ static void Store_RoundTrip_Cases()
 
         {
             P2PmsgMgr mgr;
-            mgr.r_name() = _N("PenTest");
+            mgr.r_name() = L"PenTest";
             mgr.DESC += P3PmsgField(L"pen", P2P_LOGPEN(oPen));
             TF_CHECK(LOGPEN2LOGPENcrx(mgr, L"pen"));
             mgr.Save(kPath);
