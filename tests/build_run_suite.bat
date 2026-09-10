@@ -93,7 +93,7 @@ REM ---- Diagnostics ----------------------------------------------------------
 :no_vs
 echo.
 echo ERROR: no Visual Studio C++ toolset found.
-echo        Run this from a "x64 Native Tools Command Prompt for VS 2022", or
+echo        Run this from a "x64 Native Tools Command Prompt for VS 2026", or
 echo        install the "Desktop development with C++" workload.
 endlocal & exit /b 1
 
@@ -104,7 +104,7 @@ echo        Looked for an import library at
 if defined WDMSCS_LIB echo            %WDMSCS_LIB%\x64\Debug\MsgcoreMFC.lib
 echo            %MSCS%\lib\x64\Debug\MsgcoreMFC.lib
 echo        and found neither. Build Debug^|x64 first:
-echo            msbuild "MsgcoreMFC(2022).sln" /p:Configuration=Debug /p:Platform=x64
+echo            msbuild "MsgcoreMFC(2026).sln" /p:Configuration=Debug /p:Platform=x64
 endlocal & exit /b 1
 
 :no_msgcore

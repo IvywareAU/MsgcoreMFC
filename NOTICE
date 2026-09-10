@@ -27,9 +27,9 @@ terms and carry their own notices, which must not be removed:
                                        maintain.
     stdafx.h                           Visual Studio project template.
     stdafx.cpp                         Visual Studio project template.
-    MsgcoreMFC(2022).sln               Visual Studio solution file.
-    MsgcoreMFC(2022).vcxproj           Visual Studio project files.
-    MsgcoreMFC(2022).vcxproj.filters
+    MsgcoreMFC(2026).sln               Visual Studio solution file.
+    MsgcoreMFC(2026).vcxproj           Visual Studio project files.
+    MsgcoreMFC(2026).vcxproj.filters
 
 MsgcoreMFC.rc is a mixed file. Its wizard-generated skeleton is Microsoft's, as
 above; the VERSIONINFO block, and the values it reads from MsgcoreMFC_version.h,
@@ -45,7 +45,7 @@ Version 2.0.
 Files that earlier revisions listed here are no longer tracked at all, and so
 need no exception:
 
-  - MsgcoreMFC.aps, and MsgcoreMFC(2022).vcxproj.user, were tracked only
+  - MsgcoreMFC.aps, and MsgcoreMFC(2026).vcxproj.user, were tracked only
     because they predated the .gitignore rules that name them. The first is the
     resource editor's binary cache, regenerated from the .rc; the second is
     per-user IDE settings. Both remain on disk and neither is source.

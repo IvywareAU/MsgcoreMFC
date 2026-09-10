@@ -103,7 +103,7 @@ inside MsgcoreMFC is caught, logged and reported the same way as one raised in M
 
 ## Requirements
 
-* Visual Studio 2022, platform toolset **v143**, Windows SDK 10.
+* Visual Studio 2026, platform toolset **v145**, Windows SDK 10.
 * MFC, used as a **shared** (dynamic) library — this project is an MFC extension DLL, built with
   `_AFXEXT`, `/std:c++20` and Unicode throughout, in all four configurations.
 * **Msgcore**, checked out as a sibling directory (`..\Msgcore`). It is built for you: see
@@ -127,10 +127,10 @@ MSCS tree; when not, the build succeeds and the DLL stays in its output director
 ## Building
 
 ```
-msbuild "MsgcoreMFC(2022).sln" -p:Configuration=Debug   -p:Platform=x64
-msbuild "MsgcoreMFC(2022).sln" -p:Configuration=Release -p:Platform=x64
-msbuild "MsgcoreMFC(2022).sln" -p:Configuration=Debug   -p:Platform=x86
-msbuild "MsgcoreMFC(2022).sln" -p:Configuration=Release -p:Platform=x86
+msbuild "MsgcoreMFC(2026).sln" -p:Configuration=Debug   -p:Platform=x64
+msbuild "MsgcoreMFC(2026).sln" -p:Configuration=Release -p:Platform=x64
+msbuild "MsgcoreMFC(2026).sln" -p:Configuration=Debug   -p:Platform=x86
+msbuild "MsgcoreMFC(2026).sln" -p:Configuration=Release -p:Platform=x86
 ```
 
 Note that the solution names the 32-bit platform **`x86`**, while the project underneath it names
