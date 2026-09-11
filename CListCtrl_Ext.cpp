@@ -240,7 +240,11 @@ CListCtrl_InsertRow ( CListCtrl& oCListCtrl, const P3PmsgItem& oItemColumns )
         continue;
       LPCTSTR lpszColumnText = strColumnText;
       P3PmsgItem oItem = oItemRow.r_Desc().SelectObject(lpszColumnText);
-      if ( !oItemRow )
+      //  The ROW was tested where the ITEM was meant, so a column that the
+      //  row does not carry fell through to oItem.r_data() on a void field.
+      //  The row is the loop invariant and is never void here, so the guard
+      //  could not fire.
+      if ( oItem.IsVoid() )
         continue;
       oCListCtrl.SetItemText ( nItem, nSubItem, oItem.r_data().ToString() );
       nItems++;
