@@ -119,7 +119,7 @@ an outer one when there is one, so nothing changes for an in-tree build, and oth
 sibling clones, since this project links `Msgcore.lib` and must find it where Msgcore left it.
 That default only covers the simplest layout. **If you clone the components side by side, set
 `WDMSCS_LIB` once to a single absolute directory and build them all with it**; the sibling
-repositories do not all agree on a default, and `TargetCore` has no repo-local
+repositories do not all agree on a default, and `Targetcore` has no repo-local
 `Directory.Build.props` at all, so it needs the variable rather than merely preferring it.
 `WDMSCS_VSUTILS` is optional: when defined, a post-build step publishes the DLL into the shared
 MSCS tree; when not, the build succeeds and the DLL stays in its output directory.

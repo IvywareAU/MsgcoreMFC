@@ -13,13 +13,13 @@
     MSBuild imports only the NEAREST Directory.Build.props walking up from the project, so
     this file shadows the outer one for MsgcoreMFC(2026).vcxproj. That would silently move
     the staging directory for anyone building inside the MSCS tree, where sibling projects
-    (TargetCore, TargetCoreMFC) link against MSCS\lib\... — so if an outer
+    (Targetcore, TargetcoreMFC) link against MSCS\lib\... — so if an outer
     Directory.Build.props exists, chain to it and let it win. The standalone defaults below
     apply only when there is no outer file, i.e. in a real standalone clone.
 
     Modelled on Msgcore\Directory.Build.props, with ONE deliberate difference: the standalone
     default is the PARENT directory's lib\, not this repository's own. Msgcore links no
-    sibling and can stage into itself; this project links Msgcore.lib, and TargetCoreMFC
+    sibling and can stage into itself; this project links Msgcore.lib, and TargetcoreMFC
     links three siblings, so they must all resolve to ONE directory. The published
     build-from-source route clones the four repositories side by side, which makes the shared
     parent the only place they can agree on without an environment variable. Setting
